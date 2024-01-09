@@ -1,0 +1,35 @@
+
+*{
+  background-color: #243763;
+  color: #FFEBB7;
+  
+}
+.App{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+  
+}
+.header{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.bolt-icon {
+  color: #ec6e4c !important;
+}
+.weatherList{
+  width: 80%;
+}
+.weatherIcon{
+    max-width: 100px !important;
+    min-width: 50px !important;
+}
+.weatherCard{
+  border:1px solid #AD8E70 !important;
+  margin-right: 20px !important;
+  margin-bottom: 20px !important;
+}
